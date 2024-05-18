@@ -1,6 +1,7 @@
 // import 'package:belajar_widgets/widget/sample_container.dart';
 // import 'package:belajar_widgets/widget/sample_image.dart';
-import 'package:belajar_widgets/widget/sample_listview.dart';
+import 'package:belajar_widgets/widget/sample_bottom_navbar.dart';
+// import 'package:belajar_widgets/widget/sample_listview.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.deepPurple,
           ),
         ),
-      home: SampleListView(),
+      home: SampleBottomNavbar(),
       );
   }
 }
